@@ -1,0 +1,28 @@
+``html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meu Portfólio</title>
+<style>
+body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+img { border-radius: 50%; max-width: 150px; }
+.btn { display: block; margin: 10px auto; padding: 10px 20px; text-decoration: none; color: #fff; background-color: #007bff; border-radius: 5px; }
+.social { margin-top: 20px; }
+.social a { margin: 0 10px; }
+</style>
+</head>
+<body>
+<img src="sua-foto.jpg" alt="Foto de Perfil">
+<h1>Nome Completo</h1>
+<p>Desenvolvedor Front-end</p>
+​<a href="#sobre" class="btn">Sobre mim</a>
+<a href="#projetos" class="btn">Veja meus projetos</a>
+<a href="#certificados" class="btn">Veja meus certificados</a>
+​<div class="social">
+<a href="https://github.com/seousuario" target="_blank">GitHub</a>
+<a href="https://linkedin.com/in/seousuario" target="_blank">LinkedIn</a>
+</div>
+</body>
+</html>
